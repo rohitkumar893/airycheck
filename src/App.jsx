@@ -3,12 +3,12 @@ import './App.css'
 
 const App = () => {
 
-  const[state, setState] = useState("")
+  // const[state, setState] = useState("")
 
   return (
     <div className='flex justify-center bg-orange-300 items-center h-full w-full'>
       
-      <div className='container bg-orange-200 w-[90%] h-[90%] flex flex-col rounded-2xl '>
+      <div className='container w-[90%] h-[90%] flex flex-col rounded-2xl '>
         <div className='flex flex-col items-center h-[130px] w-full gap-[12px]'>
           <label htmlFor='city' className='text-[30px] font-medium mt-[50px]'>SEARCH:</label>
           <input type='text' placeholder='Enter city name' name='city' className='border-2 rounded-md p-[10px]'></input>
